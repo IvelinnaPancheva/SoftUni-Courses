@@ -1,4 +1,4 @@
 # SoftUni-Courses
-Course Exercise
-Programming Basics with Python
-Programming Fundamentals with Python
+Course Exercise from:
+1. Programming Basics with Python
+2. Programming Fundamentals with Python
