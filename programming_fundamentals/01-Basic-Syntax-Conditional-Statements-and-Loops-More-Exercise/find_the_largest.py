@@ -1,0 +1,5 @@
+text = input()
+var = list(text)
+var.sort(reverse=True)
+text = ''.join(var)
+print(text)
