@@ -1,0 +1,18 @@
+from math import sqrt
+from math import floor
+
+
+def closer_to_center(a1, a2, b1, b2):
+    distance_center_a = sqrt((a1-0)**2 + (a2 -0)**2)
+    distance_center_b = sqrt((b1-0)**2 + (b2 -0)**2)
+    if distance_center_a <= distance_center_b:
+        return f"({floor(a1)}, {floor(a2)})"
+    else:
+        return f"({floor(b1)}, {floor(b2)})"
+
+
+point1_x = float(input())
+point1_y = float(input())
+point2_x = float(input())
+point2_y = float(input())
+print(closer_to_center(point1_x, point1_y, point2_x, point2_y))
