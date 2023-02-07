@@ -1,4 +1,4 @@
-### SoftUni Courses Lab and Exercise
+### SoftUni Courses Lab and Exercise:
 1. Programming Basics with Python
 2. Python Fundamentals
 3. Python Advanced
